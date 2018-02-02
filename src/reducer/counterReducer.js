@@ -1,6 +1,6 @@
 // counterReducer.js
 
-import * as actionType from '../actions/ActionType';
+import * as actionType from './../container/actions/actionType';
 
 const counterReducer = (state = 0, action) => {
   let newState;
