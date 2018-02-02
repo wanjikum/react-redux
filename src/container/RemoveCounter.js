@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { removeCounter } from '../actions';
+import { removeCounter } from './actions';
 import { bindActionCreators } from 'redux';
 
 class RemoveCounter extends Component {

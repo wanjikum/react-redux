@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addCounter } from '../actions';
+import { addCounter } from './actions';
 import { bindActionCreators } from 'redux';
 
 class AddCounter extends Component {
@@ -8,7 +8,7 @@ class AddCounter extends Component {
         super(props);
    }
    render() {
-    console.log(props);
+    console.log(this.props);
      return (
            <div className="container">
             <form>
