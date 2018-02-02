@@ -8,6 +8,7 @@ class AddCounter extends Component {
         super(props);
    }
    render() {
+    console.log(props);
      return (
            <div className="container">
             <form>
